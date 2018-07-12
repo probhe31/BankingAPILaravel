@@ -19,4 +19,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 
 Route::post('/client', 'ClientController@login');
+Route::post('/accounts', 'ClientController@accounts');
 Route::post('/client/profile', 'ClientController@profile');
